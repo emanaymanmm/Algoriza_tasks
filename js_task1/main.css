@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    max-height: 75;
+}
+
+.header .logo {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:hover {
+    color: white;
+}
+
+.dropdown .dropbtn {
+    background-color: black;
+    color: grey;
+    /* padding: 16px; */
+    font-size: 18px;
+    border: none;
+    max-height: 21px;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+}
+
+div input[type=search],
+input[type=submit] {
+    margin-top: 28px;
+    border-radius: 4px;
+    border: 2px;
+    font-size: 18px;
+    margin-inline: 2px;
+}
+
+input[type=search]:focus {
+    border-color: rgba(0, 0, 255, 0.308);
+}
+
+label.checkbtn {
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+input#check {
+    display: none;
+}
+
+.Section-one {
+    background-color: yellowgreen;
+    padding: 41px;
+    width: 100%;
+    margin-top: 74px;
+    text-align: center;
+}
+
+.Section-one a.btn-primary {
+    background-color: #337ab7;
+    padding: 7px;
+    text-decoration: none;
+    color: #fff;
+    border-color: #2e6da4;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.Section-one h1 {
+    font-size: 63;
+    color: greenyellow;
+    margin: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Section-one p {
+    color: greenyellow;
+    font-size: 21;
+    margin: 15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div img {
+    width: 290px;
+    height: 300px;
+}
+
+.Section-two {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Section-two h2 {
+    font-size: 36px;
+    margin: 4px 0px;
+}
+
+.Section-two h2 span {
+    font-size: 65%;
+    color: grey;
+}
+
+.Section-two p {
+    font-size: 14px;
+    color: grey;
+    padding-top: 0px;
+    padding-inline: 23px;
+}
+
+.section-three {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 6px 33px;
+}
+
+.section-three .Box p {
+    font-size: 12px;
+    padding: 0px 14px 0px 0px;
+    /* margin: 10px; */
+    display: block;
+    width: 293.33;
+    /* height: 120; */
+    color: grey;
+}
+
+.section-three .Box h3 {
+    font-size: 24px;
+    margin: 8px;
+    color: #337ab7;
+    /* display: block; */
+    /* padding: 0px 10px; */
+    /* padding-left: 0px; */
+}
+
+section {
+    display: flex;
+    background-color: goldenrod;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    padding: 18px 0px;
+}
+
+section .box-two {
+    width: 294.33px;
+}
+
+section .box-two img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100;
+    height: 100;
+}
+
+section .box-two p {
+    font-size: 14px;
+    margin: 35px;
+}
+
+section .box-two h3 {
+    font-size: 24px;
+}
+
+section .box-two a.btn-default {
+    text-decoration: none;
+    color: black;
+    border-color: white;
+    margin: 0px 100px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.footer p {
+    color: grey;
+}
+
+.footer .list a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer .list a:hover {
+    text-decoration: underline;
+    color: #103e66;
+}
+
+@media (max-width: 767px) {
+    label.checkbtn {
+        display: inline-block;
+        margin: 27px 0px;
+    }
+
+    div ul {
+        width: 100%;
+        height: 43vh;
+        background-color: #333;
+        position: fixed;
+        top: 58px;
+        left: 0px;
+        display: none;
+    }
+
+    div ul li {
+        display: block;
+        margin: 23px 28px;
+    }
+
+    /* first ul will be display:none 
+    after checking,it will be block , if I pressed again the state of unchecked 
+    return and the display will be null */
+    .header .logo {
+        font-size: 28px;
+        margin: -6px 30px;
+        color: white;
+        width: 50%;
+    }
+
+    .header #check:checked~ul {
+        display: block;
+    }
+
+    .header input {
+        display: none;
+    }
+
+    .Section-one {
+        text-align: center;
+        width: 100%;
+    }
+
+    .Section-one h1 {
+        font-size: 36px;
+    }
+
+    .Section-one p {
+        font-size: 21px;
+    }
+
+    .Section-two {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        /* padding: 12px; */
+    }
+
+    .section-three {
+        flex-flow: column nowrap;
+    }
+
+    .section-three .Box {
+        text-align: center;
+        /* width: 100%; */
+    }
+
+    .section-three .Box div img {
+        width: 700px;
+        height: 300px;
+        padding: 0px;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    .section-three .Box p {
+        padding: 0px 6px 0px 19px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        flex-flow: column nowrap;
+    }
+
+    section .box-two {
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 23px;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
